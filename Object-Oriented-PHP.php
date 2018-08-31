@@ -56,7 +56,7 @@ class Animal implements Singable{
 	
 	function __construct(){
 	
-		// Generate a random id between 1 and 1000000
+		// Generate a random id between 100 and 1000000
 		
 		$this->id = rand(100, 1000000);
 		
